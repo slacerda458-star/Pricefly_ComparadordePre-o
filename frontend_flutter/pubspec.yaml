@@ -1,0 +1,10 @@
+name: pricefy
+description: A new Flutter project
+
+environment:
+  sdk: '^3.11.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0

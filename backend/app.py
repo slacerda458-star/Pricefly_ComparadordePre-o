@@ -4,7 +4,11 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-produtos = []
+produtos = [
+    {"nome": "arroz", "preco":20},
+    {"nome": "feijao", "preco":10},
+    {"nome": "Macarrão", "preco":80}
+]
 
 @app.route("/")
 def home():
